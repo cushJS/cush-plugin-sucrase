@@ -1,0 +1,26 @@
+{
+  "name": "cush-plugin-sucrase",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "description": "alangpierce/sucrase for cush",
+  "repository": "cushJS/cush-plugin-sucrase",
+  "scripts": {
+    "build": "coffee-build src -o lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@cush/sucrase": "^3.3.0",
+    "lodge": "^0.0.9"
+  },
+  "devDependencies": {
+    "coffeelint": "^2.1.0",
+    "coffeescript": "^2.3.0",
+    "wch-coffee": "*"
+  },
+  "peerDependencies": {
+    "cush": "^0.2.0"
+  }
+}
