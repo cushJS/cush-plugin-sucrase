@@ -1,4 +1,4 @@
-# cush-plugin-sucrase v0.0.1
+# cush-plugin-sucrase v0.1.0
 
 This plugin handles [Flow][1], [TypeScript][2], [JSX][3], and ES modules.
 
